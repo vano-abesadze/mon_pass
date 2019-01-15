@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Entity.Infrastructure;
-using System.Data.SqlClient;
-using System.Data.SQLite;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
@@ -206,20 +204,6 @@ namespace mon_pass
 
                 using (mainEntities ff = new mainEntities())
                 {
-                    string sql = "select sum(qty) as dd from main_corp where " + filter;
-                    SQLiteConnection con = new SQLiteConnection(dataTable3TableAdapter.Connection.ConnectionString);
-
-                    SQLiteCommand comm = new SQLiteCommand(sql, con);
-                    con.Open();
-                    comm.ExecuteScalar().ToString();
-                    var de = comm.ExecuteScalar();
-
-
-                    if (label4.InvokeRequired)
-                    {
-                        label4.Invoke(new Action(() => label4.Text = "ჯამი: " + comm.ExecuteScalar().ToString()));
-                    }
-
                     return ff.main_corp.SqlQuery("select * from main_corp where " + filter).ToPagedList(pagenumber_2, pagesize);
 
                 }
@@ -247,32 +231,13 @@ namespace mon_pass
             
             return await Task.Factory.StartNew(() =>
             {
+
                 
 
                 using (mainEntities ff = new mainEntities())
                 {
+                    return ff.mains.SqlQuery("select * from main where "+filter).ToPagedList(pagenumber, pagesize);
                     
-
-                        string sql = "select sum(qty) as dd from main where " + filter;
-                        SQLiteConnection con = new SQLiteConnection(dataTable3TableAdapter.Connection.ConnectionString);
-
-                        SQLiteCommand comm = new SQLiteCommand(sql, con);
-                        con.Open();
-                        comm.ExecuteScalar().ToString();
-                        var de=comm.ExecuteScalar();
-
-                        
-                        if (label3.InvokeRequired)
-                        {
-                            label3.Invoke(new Action(() => label3.Text = "ჯამი: " + comm.ExecuteScalar().ToString()));
-                        }
-                        
-                        con.Close();
-                    
-
-
-                    return ff.mains.SqlQuery("select * from main where "+filter).ToPagedList(pagenumber, pagesize);                    
-
                 }
 
             });
@@ -1091,16 +1056,6 @@ namespace mon_pass
             {
                 list2 = await getpage_filter_all_one_pass();
                 dataGridView2.DataSource = list2.ToList();
-                try
-                {
-                    label3.Text = "ჯამი: " + dataTable2TableAdapter.ScalarQuery_sum_main().ToString();
-                    label4.Text = "ჯამი: " + dataTable3TableAdapter.ScalarQuery_sum_main_corp().ToString();
-                }
-                catch
-                {
-                    label3.Text = "ჯამი: 0";
-                    label4.Text = "ჯამი: 0";
-                }
             }
 
 
@@ -1256,16 +1211,6 @@ namespace mon_pass
             {
                 list1 = await getpage_filter_all_corp();
                 dataGridView3.DataSource = list1.ToList();
-                try
-                {
-                    label3.Text = "ჯამი: " + dataTable2TableAdapter.ScalarQuery_sum_main().ToString();
-                    label4.Text = "ჯამი: " + dataTable3TableAdapter.ScalarQuery_sum_main_corp().ToString();
-                }
-                catch
-                {
-                    label3.Text = "ჯამი: 0";
-                    label4.Text = "ჯამი: 0";
-                }
             }
 
 
@@ -1458,24 +1403,11 @@ namespace mon_pass
 
                 list = await getpage_filter(filter_text);
                 dataGridView1.DataSource = list.ToList();
-
-                
-
             }
             else
             {
                 list = await getpage_filter_all();
                 dataGridView1.DataSource = list.ToList();
-                try
-                {
-                    label3.Text = "ჯამი: " + dataTable2TableAdapter.ScalarQuery_sum_main().ToString();
-                    label4.Text = "ჯამი: " + dataTable3TableAdapter.ScalarQuery_sum_main_corp().ToString();
-                }
-                catch
-                {
-                    label3.Text = "ჯამი: 0";
-                    label4.Text = "ჯამი: 0";
-                }
             }
 
             

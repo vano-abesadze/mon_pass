@@ -26,7 +26,7 @@ namespace mon_pass.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("data source=mon_pass.db;version=3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("data source=D:\\siemens_projects\\mon_pass\\mon_pass\\bin\\Debug\\mon_pass.db;version=3")]
         public string ConnectionString1 {
             get {
                 return ((string)(this["ConnectionString1"]));

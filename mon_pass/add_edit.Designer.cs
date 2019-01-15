@@ -162,7 +162,7 @@
             // textBox7
             // 
             this.textBox7.ForeColor = System.Drawing.Color.Navy;
-            this.textBox7.Location = new System.Drawing.Point(318, 171);
+            this.textBox7.Location = new System.Drawing.Point(318, 170);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(160, 29);
             this.textBox7.TabIndex = 13;
@@ -182,6 +182,11 @@
             this.numericUpDown1.DecimalPlaces = 2;
             this.numericUpDown1.ForeColor = System.Drawing.Color.Navy;
             this.numericUpDown1.Location = new System.Drawing.Point(490, 171);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            55555,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 29);
             this.numericUpDown1.TabIndex = 16;

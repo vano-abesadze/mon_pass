@@ -37,16 +37,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.passnDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.exporterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.destinationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prodnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.machinenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.baseDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.inoiceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ddateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.qtyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataTable3BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataSet2 = new mon_pass.DataSet2();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -57,16 +47,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.passnDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fi_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.la_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pass_n_and_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.personal_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.destinationDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ttime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ddateDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -79,13 +59,24 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.dataTable2BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.dataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataTable1TableAdapter = new mon_pass.DataSet2TableAdapters.DataTable1TableAdapter();
             this.tableAdapterManager = new mon_pass.DataSet2TableAdapters.TableAdapterManager();
+            this.dataTable2BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataTable2TableAdapter = new mon_pass.DataSet2TableAdapters.DataTable2TableAdapter();
             this.dataTable3TableAdapter = new mon_pass.DataSet2TableAdapters.DataTable3TableAdapter();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.passnDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.exporterDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.destinationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prodnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.machinenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.baseDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.inoiceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ddateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qtyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.passnDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.exporterDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,6 +87,15 @@
             this.inoiceDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ddateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.qtyDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.la_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fi_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pass_n_and_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.personal_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ttime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.passnDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.destinationDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ddateDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -108,12 +108,12 @@
             this.panel6.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable1BindingSource)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -196,77 +196,6 @@
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             this.dataGridView1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseUp);
             // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn.Visible = false;
-            // 
-            // passnDataGridViewTextBoxColumn
-            // 
-            this.passnDataGridViewTextBoxColumn.DataPropertyName = "pass_n";
-            this.passnDataGridViewTextBoxColumn.HeaderText = "საშვის N";
-            this.passnDataGridViewTextBoxColumn.Name = "passnDataGridViewTextBoxColumn";
-            this.passnDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // exporterDataGridViewTextBoxColumn
-            // 
-            this.exporterDataGridViewTextBoxColumn.DataPropertyName = "exporter";
-            this.exporterDataGridViewTextBoxColumn.HeaderText = "გამტანი";
-            this.exporterDataGridViewTextBoxColumn.Name = "exporterDataGridViewTextBoxColumn";
-            this.exporterDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // destinationDataGridViewTextBoxColumn
-            // 
-            this.destinationDataGridViewTextBoxColumn.DataPropertyName = "destination";
-            this.destinationDataGridViewTextBoxColumn.HeaderText = "სად";
-            this.destinationDataGridViewTextBoxColumn.Name = "destinationDataGridViewTextBoxColumn";
-            this.destinationDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // prodnameDataGridViewTextBoxColumn
-            // 
-            this.prodnameDataGridViewTextBoxColumn.DataPropertyName = "prod_name";
-            this.prodnameDataGridViewTextBoxColumn.HeaderText = "პროდუქტის დასახელება";
-            this.prodnameDataGridViewTextBoxColumn.Name = "prodnameDataGridViewTextBoxColumn";
-            this.prodnameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // machinenDataGridViewTextBoxColumn
-            // 
-            this.machinenDataGridViewTextBoxColumn.DataPropertyName = "machine_n";
-            this.machinenDataGridViewTextBoxColumn.HeaderText = "ავტ. N";
-            this.machinenDataGridViewTextBoxColumn.Name = "machinenDataGridViewTextBoxColumn";
-            this.machinenDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // baseDataGridViewTextBoxColumn
-            // 
-            this.baseDataGridViewTextBoxColumn.DataPropertyName = "base";
-            this.baseDataGridViewTextBoxColumn.HeaderText = "საფუძველი";
-            this.baseDataGridViewTextBoxColumn.Name = "baseDataGridViewTextBoxColumn";
-            this.baseDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // inoiceDataGridViewTextBoxColumn
-            // 
-            this.inoiceDataGridViewTextBoxColumn.DataPropertyName = "inoice";
-            this.inoiceDataGridViewTextBoxColumn.HeaderText = "ინვოისი";
-            this.inoiceDataGridViewTextBoxColumn.Name = "inoiceDataGridViewTextBoxColumn";
-            this.inoiceDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // ddateDataGridViewTextBoxColumn
-            // 
-            this.ddateDataGridViewTextBoxColumn.DataPropertyName = "ddate";
-            this.ddateDataGridViewTextBoxColumn.HeaderText = "თარიღი";
-            this.ddateDataGridViewTextBoxColumn.Name = "ddateDataGridViewTextBoxColumn";
-            this.ddateDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // qtyDataGridViewTextBoxColumn
-            // 
-            this.qtyDataGridViewTextBoxColumn.DataPropertyName = "qty";
-            this.qtyDataGridViewTextBoxColumn.HeaderText = "რაოდენობა";
-            this.qtyDataGridViewTextBoxColumn.Name = "qtyDataGridViewTextBoxColumn";
-            this.qtyDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // dataTable3BindingSource
             // 
             this.dataTable3BindingSource.DataMember = "DataTable3";
@@ -334,7 +263,7 @@
             this.inoiceDataGridViewTextBoxColumn1,
             this.ddateDataGridViewTextBoxColumn1,
             this.qtyDataGridViewTextBoxColumn1});
-            this.dataGridView3.DataSource = this.dataTable3BindingSource;
+            this.dataGridView3.DataSource = this.dataTable2BindingSource;
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView3.EnableHeadersVisualStyles = false;
             this.dataGridView3.Location = new System.Drawing.Point(3, 3);
@@ -391,14 +320,14 @@
             this.dataGridView2.ColumnHeadersHeight = 80;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn2,
-            this.passnDataGridViewTextBoxColumn2,
-            this.fi_name,
             this.la_name,
+            this.fi_name,
             this.pass_n_and_type,
             this.personal_id,
-            this.destinationDataGridViewTextBoxColumn2,
             this.ttime,
+            this.idDataGridViewTextBoxColumn2,
+            this.passnDataGridViewTextBoxColumn2,
+            this.destinationDataGridViewTextBoxColumn2,
             this.ddateDataGridViewTextBoxColumn2});
             this.dataGridView2.DataSource = this.dataTable1BindingSource;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -410,78 +339,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(1230, 432);
             this.dataGridView2.TabIndex = 9;
             this.dataGridView2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.dataGridView2_MouseUp);
-            // 
-            // idDataGridViewTextBoxColumn2
-            // 
-            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn2.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
-            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.idDataGridViewTextBoxColumn2.Visible = false;
-            // 
-            // passnDataGridViewTextBoxColumn2
-            // 
-            this.passnDataGridViewTextBoxColumn2.DataPropertyName = "pass_n";
-            this.passnDataGridViewTextBoxColumn2.HeaderText = "საშვის N";
-            this.passnDataGridViewTextBoxColumn2.Name = "passnDataGridViewTextBoxColumn2";
-            this.passnDataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // fi_name
-            // 
-            this.fi_name.DataPropertyName = "fi_name";
-            this.fi_name.HeaderText = "გვარი";
-            this.fi_name.Name = "fi_name";
-            this.fi_name.ReadOnly = true;
-            // 
-            // la_name
-            // 
-            this.la_name.DataPropertyName = "la_name";
-            this.la_name.HeaderText = "სახელი";
-            this.la_name.Name = "la_name";
-            this.la_name.ReadOnly = true;
-            // 
-            // pass_n_and_type
-            // 
-            this.pass_n_and_type.DataPropertyName = "pass_n_and_type";
-            this.pass_n_and_type.HeaderText = "საბუთის სახე და N";
-            this.pass_n_and_type.Name = "pass_n_and_type";
-            this.pass_n_and_type.ReadOnly = true;
-            // 
-            // personal_id
-            // 
-            this.personal_id.DataPropertyName = "personal_id";
-            this.personal_id.HeaderText = "პირადი N";
-            this.personal_id.Name = "personal_id";
-            this.personal_id.ReadOnly = true;
-            // 
-            // destinationDataGridViewTextBoxColumn2
-            // 
-            this.destinationDataGridViewTextBoxColumn2.DataPropertyName = "destination";
-            this.destinationDataGridViewTextBoxColumn2.HeaderText = "სად";
-            this.destinationDataGridViewTextBoxColumn2.Name = "destinationDataGridViewTextBoxColumn2";
-            this.destinationDataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // ttime
-            // 
-            this.ttime.DataPropertyName = "ttime";
-            dataGridViewCellStyle4.Format = "t";
-            dataGridViewCellStyle4.NullValue = null;
-            this.ttime.DefaultCellStyle = dataGridViewCellStyle4;
-            this.ttime.HeaderText = "დრო";
-            this.ttime.Name = "ttime";
-            this.ttime.ReadOnly = true;
-            // 
-            // ddateDataGridViewTextBoxColumn2
-            // 
-            this.ddateDataGridViewTextBoxColumn2.DataPropertyName = "ddate";
-            this.ddateDataGridViewTextBoxColumn2.HeaderText = "ddate";
-            this.ddateDataGridViewTextBoxColumn2.Name = "ddateDataGridViewTextBoxColumn2";
-            this.ddateDataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // dataTable1BindingSource
-            // 
-            this.dataTable1BindingSource.DataMember = "DataTable1";
-            this.dataTable1BindingSource.DataSource = this.dataSet2;
             // 
             // panel3
             // 
@@ -619,11 +476,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // dataTable2BindingSource
-            // 
-            this.dataTable2BindingSource.DataMember = "DataTable2";
-            this.dataTable2BindingSource.DataSource = this.dataSet2;
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label2);
@@ -644,6 +496,11 @@
             this.label2.Text = "დაელოდეთ ჩატვირთვას ...";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // dataTable1BindingSource
+            // 
+            this.dataTable1BindingSource.DataMember = "DataTable1";
+            this.dataTable1BindingSource.DataSource = this.dataSet2;
+            // 
             // dataTable1TableAdapter
             // 
             this.dataTable1TableAdapter.ClearBeforeFill = true;
@@ -654,6 +511,11 @@
             this.tableAdapterManager.Connection = null;
             this.tableAdapterManager.UpdateOrder = mon_pass.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
+            // dataTable2BindingSource
+            // 
+            this.dataTable2BindingSource.DataMember = "DataTable2";
+            this.dataTable2BindingSource.DataSource = this.dataSet2;
+            // 
             // dataTable2TableAdapter
             // 
             this.dataTable2TableAdapter.ClearBeforeFill = true;
@@ -661,6 +523,77 @@
             // dataTable3TableAdapter
             // 
             this.dataTable3TableAdapter.ClearBeforeFill = true;
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn.Visible = false;
+            // 
+            // passnDataGridViewTextBoxColumn
+            // 
+            this.passnDataGridViewTextBoxColumn.DataPropertyName = "pass_n";
+            this.passnDataGridViewTextBoxColumn.HeaderText = "pass_n";
+            this.passnDataGridViewTextBoxColumn.Name = "passnDataGridViewTextBoxColumn";
+            this.passnDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // exporterDataGridViewTextBoxColumn
+            // 
+            this.exporterDataGridViewTextBoxColumn.DataPropertyName = "exporter";
+            this.exporterDataGridViewTextBoxColumn.HeaderText = "exporter";
+            this.exporterDataGridViewTextBoxColumn.Name = "exporterDataGridViewTextBoxColumn";
+            this.exporterDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // destinationDataGridViewTextBoxColumn
+            // 
+            this.destinationDataGridViewTextBoxColumn.DataPropertyName = "destination";
+            this.destinationDataGridViewTextBoxColumn.HeaderText = "destination";
+            this.destinationDataGridViewTextBoxColumn.Name = "destinationDataGridViewTextBoxColumn";
+            this.destinationDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // prodnameDataGridViewTextBoxColumn
+            // 
+            this.prodnameDataGridViewTextBoxColumn.DataPropertyName = "prod_name";
+            this.prodnameDataGridViewTextBoxColumn.HeaderText = "prod_name";
+            this.prodnameDataGridViewTextBoxColumn.Name = "prodnameDataGridViewTextBoxColumn";
+            this.prodnameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // machinenDataGridViewTextBoxColumn
+            // 
+            this.machinenDataGridViewTextBoxColumn.DataPropertyName = "machine_n";
+            this.machinenDataGridViewTextBoxColumn.HeaderText = "machine_n";
+            this.machinenDataGridViewTextBoxColumn.Name = "machinenDataGridViewTextBoxColumn";
+            this.machinenDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // baseDataGridViewTextBoxColumn
+            // 
+            this.baseDataGridViewTextBoxColumn.DataPropertyName = "base";
+            this.baseDataGridViewTextBoxColumn.HeaderText = "base";
+            this.baseDataGridViewTextBoxColumn.Name = "baseDataGridViewTextBoxColumn";
+            this.baseDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // inoiceDataGridViewTextBoxColumn
+            // 
+            this.inoiceDataGridViewTextBoxColumn.DataPropertyName = "inoice";
+            this.inoiceDataGridViewTextBoxColumn.HeaderText = "inoice";
+            this.inoiceDataGridViewTextBoxColumn.Name = "inoiceDataGridViewTextBoxColumn";
+            this.inoiceDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ddateDataGridViewTextBoxColumn
+            // 
+            this.ddateDataGridViewTextBoxColumn.DataPropertyName = "ddate";
+            this.ddateDataGridViewTextBoxColumn.HeaderText = "ddate";
+            this.ddateDataGridViewTextBoxColumn.Name = "ddateDataGridViewTextBoxColumn";
+            this.ddateDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // qtyDataGridViewTextBoxColumn
+            // 
+            this.qtyDataGridViewTextBoxColumn.DataPropertyName = "qty";
+            this.qtyDataGridViewTextBoxColumn.HeaderText = "qty";
+            this.qtyDataGridViewTextBoxColumn.Name = "qtyDataGridViewTextBoxColumn";
+            this.qtyDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // idDataGridViewTextBoxColumn1
             // 
@@ -673,65 +606,132 @@
             // passnDataGridViewTextBoxColumn1
             // 
             this.passnDataGridViewTextBoxColumn1.DataPropertyName = "pass_n";
-            this.passnDataGridViewTextBoxColumn1.HeaderText = "საშვის N";
+            this.passnDataGridViewTextBoxColumn1.HeaderText = "pass_n";
             this.passnDataGridViewTextBoxColumn1.Name = "passnDataGridViewTextBoxColumn1";
             this.passnDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // exporterDataGridViewTextBoxColumn1
             // 
             this.exporterDataGridViewTextBoxColumn1.DataPropertyName = "exporter";
-            this.exporterDataGridViewTextBoxColumn1.HeaderText = "გამტანი";
+            this.exporterDataGridViewTextBoxColumn1.HeaderText = "exporter";
             this.exporterDataGridViewTextBoxColumn1.Name = "exporterDataGridViewTextBoxColumn1";
             this.exporterDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // destinationDataGridViewTextBoxColumn1
             // 
             this.destinationDataGridViewTextBoxColumn1.DataPropertyName = "destination";
-            this.destinationDataGridViewTextBoxColumn1.HeaderText = "სად";
+            this.destinationDataGridViewTextBoxColumn1.HeaderText = "destination";
             this.destinationDataGridViewTextBoxColumn1.Name = "destinationDataGridViewTextBoxColumn1";
             this.destinationDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // prodnameDataGridViewTextBoxColumn1
             // 
             this.prodnameDataGridViewTextBoxColumn1.DataPropertyName = "prod_name";
-            this.prodnameDataGridViewTextBoxColumn1.HeaderText = "პროდუქტის დასახელება";
+            this.prodnameDataGridViewTextBoxColumn1.HeaderText = "prod_name";
             this.prodnameDataGridViewTextBoxColumn1.Name = "prodnameDataGridViewTextBoxColumn1";
             this.prodnameDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // machinenDataGridViewTextBoxColumn1
             // 
             this.machinenDataGridViewTextBoxColumn1.DataPropertyName = "machine_n";
-            this.machinenDataGridViewTextBoxColumn1.HeaderText = "ავტ. N";
+            this.machinenDataGridViewTextBoxColumn1.HeaderText = "machine_n";
             this.machinenDataGridViewTextBoxColumn1.Name = "machinenDataGridViewTextBoxColumn1";
             this.machinenDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // baseDataGridViewTextBoxColumn1
             // 
             this.baseDataGridViewTextBoxColumn1.DataPropertyName = "base";
-            this.baseDataGridViewTextBoxColumn1.HeaderText = "საფუძველი";
+            this.baseDataGridViewTextBoxColumn1.HeaderText = "base";
             this.baseDataGridViewTextBoxColumn1.Name = "baseDataGridViewTextBoxColumn1";
             this.baseDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // inoiceDataGridViewTextBoxColumn1
             // 
             this.inoiceDataGridViewTextBoxColumn1.DataPropertyName = "inoice";
-            this.inoiceDataGridViewTextBoxColumn1.HeaderText = "ინვოისი";
+            this.inoiceDataGridViewTextBoxColumn1.HeaderText = "inoice";
             this.inoiceDataGridViewTextBoxColumn1.Name = "inoiceDataGridViewTextBoxColumn1";
             this.inoiceDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // ddateDataGridViewTextBoxColumn1
             // 
             this.ddateDataGridViewTextBoxColumn1.DataPropertyName = "ddate";
-            this.ddateDataGridViewTextBoxColumn1.HeaderText = "თარიღი";
+            this.ddateDataGridViewTextBoxColumn1.HeaderText = "ddate";
             this.ddateDataGridViewTextBoxColumn1.Name = "ddateDataGridViewTextBoxColumn1";
             this.ddateDataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // qtyDataGridViewTextBoxColumn1
             // 
             this.qtyDataGridViewTextBoxColumn1.DataPropertyName = "qty";
-            this.qtyDataGridViewTextBoxColumn1.HeaderText = "რაოდენობა";
+            this.qtyDataGridViewTextBoxColumn1.HeaderText = "qty";
             this.qtyDataGridViewTextBoxColumn1.Name = "qtyDataGridViewTextBoxColumn1";
             this.qtyDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // la_name
+            // 
+            this.la_name.DataPropertyName = "la_name";
+            this.la_name.HeaderText = "სახელი";
+            this.la_name.Name = "la_name";
+            this.la_name.ReadOnly = true;
+            // 
+            // fi_name
+            // 
+            this.fi_name.DataPropertyName = "fi_name";
+            this.fi_name.HeaderText = "გვარი";
+            this.fi_name.Name = "fi_name";
+            this.fi_name.ReadOnly = true;
+            // 
+            // pass_n_and_type
+            // 
+            this.pass_n_and_type.DataPropertyName = "pass_n_and_type";
+            this.pass_n_and_type.HeaderText = "საბუთის სახე და N";
+            this.pass_n_and_type.Name = "pass_n_and_type";
+            this.pass_n_and_type.ReadOnly = true;
+            // 
+            // personal_id
+            // 
+            this.personal_id.DataPropertyName = "personal_id";
+            this.personal_id.HeaderText = "პირადი N";
+            this.personal_id.Name = "personal_id";
+            this.personal_id.ReadOnly = true;
+            // 
+            // ttime
+            // 
+            this.ttime.DataPropertyName = "ttime";
+            dataGridViewCellStyle4.Format = "t";
+            dataGridViewCellStyle4.NullValue = null;
+            this.ttime.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ttime.HeaderText = "დრო";
+            this.ttime.Name = "ttime";
+            this.ttime.ReadOnly = true;
+            // 
+            // idDataGridViewTextBoxColumn2
+            // 
+            this.idDataGridViewTextBoxColumn2.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn2.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn2.Name = "idDataGridViewTextBoxColumn2";
+            this.idDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.idDataGridViewTextBoxColumn2.Visible = false;
+            // 
+            // passnDataGridViewTextBoxColumn2
+            // 
+            this.passnDataGridViewTextBoxColumn2.DataPropertyName = "pass_n";
+            this.passnDataGridViewTextBoxColumn2.HeaderText = "pass_n";
+            this.passnDataGridViewTextBoxColumn2.Name = "passnDataGridViewTextBoxColumn2";
+            this.passnDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // destinationDataGridViewTextBoxColumn2
+            // 
+            this.destinationDataGridViewTextBoxColumn2.DataPropertyName = "destination";
+            this.destinationDataGridViewTextBoxColumn2.HeaderText = "destination";
+            this.destinationDataGridViewTextBoxColumn2.Name = "destinationDataGridViewTextBoxColumn2";
+            this.destinationDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // ddateDataGridViewTextBoxColumn2
+            // 
+            this.ddateDataGridViewTextBoxColumn2.DataPropertyName = "ddate";
+            this.ddateDataGridViewTextBoxColumn2.HeaderText = "ddate";
+            this.ddateDataGridViewTextBoxColumn2.Name = "ddateDataGridViewTextBoxColumn2";
+            this.ddateDataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // Form1
             // 
@@ -759,14 +759,14 @@
             this.panel6.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable1BindingSource)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable1BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTable2BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -816,15 +816,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn inoiceDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ddateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn qtyDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn passnDataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fi_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn la_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pass_n_and_type;
-        private System.Windows.Forms.DataGridViewTextBoxColumn personal_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn destinationDataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ttime;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ddateDataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn passnDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn exporterDataGridViewTextBoxColumn1;
@@ -835,6 +826,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn inoiceDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ddateDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn qtyDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn la_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fi_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pass_n_and_type;
+        private System.Windows.Forms.DataGridViewTextBoxColumn personal_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ttime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn passnDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn destinationDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ddateDataGridViewTextBoxColumn2;
     }
 }
 

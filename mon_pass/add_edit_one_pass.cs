@@ -69,7 +69,7 @@ namespace mon_pass
                 variables.textBox4_Text = textBox4.Text;
                 variables.textBox5_Text = textBox5.Text;
                 variables.textBox6_Text = textBox6.Text;
-                variables.ttime = DateTime.Now;
+                variables.ttime = dateTimePicker2.Value;
                 variables.dateTimePicker_ = dateTimePicker1.Value;
                 Close();
             }
